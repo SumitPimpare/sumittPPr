@@ -30,6 +30,7 @@ const CloseIcon = styled(FaTimes)`
 `;
 export const NavMenu = styled.div`
   display: flex;
+  gap:20px;
   justify-content: center;
   align-items: center;
   flex-direction: column;

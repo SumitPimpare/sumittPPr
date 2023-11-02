@@ -4,7 +4,6 @@ import { MdContentCopy } from "react-icons/md";
 import { IconButton, Tooltip } from "@mui/material";
 import Zoom from '@mui/material/Zoom';
 
-import ScrollAnimation from "react-animate-on-scroll";
 function Contact() {
   const [showTooltip, setShowTooltip] = useState(false);
   const copyToClipboard = () => {
@@ -18,12 +17,11 @@ function Contact() {
   return (
     <ContactWrapper id="contact">
 
-      <div className="Container">
+      <div className="Container contain">
         <div className="SectionTitle">Get In Touch</div>
-        {/* <ScrollAnimation animateIn="fadeIn" > */}
           <div className="emailBigCard">
             <Email>
-              <div style={{ display: 'flex', alignItems: 'center', columnGap: '20px', rowGap: '10px', flexWrap: 'wrap', justifyContent: 'center' }} >
+              <div style={{ display: 'flex', alignItems: 'center', columnGap: '5px', rowGap: '10px', flexWrap: 'wrap', justifyContent: 'center' }} >
                 <span>sumitpimpare105@gmail.com</span>
                 <Tooltip
                   PopperProps={{
@@ -44,7 +42,7 @@ function Contact() {
                 </Tooltip>
               </div>
               <a
-                className="btn PrimaryBtn btn-shadow"
+                className="btn emailBtn btn-shadow"
                 href="mailto:sumitpimpare105@gmail.com"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -53,8 +51,12 @@ function Contact() {
               </a>
             </Email>
           </div>
-        {/* </ScrollAnimation> */}
 
+          <div className="mobileBigCard">
+           <div>
+            <striong>Mobile:</striong> +91 777941264/9145218348
+           </div>
+          </div>
       </div>
     </ContactWrapper>
   );

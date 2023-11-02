@@ -89,17 +89,32 @@ video {
   border: none;
   background: transparent;
   color: #f6f6f6;
+  transition: 0.8s;
+}
+
+.PrimaryBtn:hover {
+  color: black;
+  font-weight:400;
+  background: rgb(184, 184, 184);
 }
 
 .SecondaryBtn{
   padding: 10px 18px;
   border: 2px solid rgb(57, 134, 250);
-  color: #010606;
   margin-right: 1rem;
 }
 
-.PrimaryBtn:hover {
-  background: rgb(184, 184, 184);
+.emailBtn {
+  padding: 8px 8px;
+  border: none;
+  background: rgba(71, 136, 235, 0.623);
+  color: #000000;
+  transition:0.8s;
+}
+
+.emailBtn:hover {
+  color: white;
+  background: rgba(0, 21, 53, 0.623);
 }
 
 .SecondaryBtn:hover {
@@ -133,6 +148,17 @@ video {
   border-radius: 1rem;
   display: flex;
   flex-direction: column;
+  background: #fff;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 5px 10px;
+} 
+
+.mobileBigCard {
+  margin-top: 2%;
+  padding: 2rem 1rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background: #fff;
   box-shadow: rgba(0, 0, 0, 0.05) 0px 5px 10px;
 }

@@ -1,19 +1,18 @@
 // --------------------------------------- Project List
 export const ProjectList = [
   {
-    img: "/ykte-feature-graphic.png",
+    img: "/dashboard.png",
     title: "Dashboard",
     description:
       "A cross-platform mobile game (in closed testing) where players try to find the missing pieces of a story.",
     tech_stack: ["React", "Webpack", "Module Federation", "HTML", "CSS"],
   },
   {
-    img: "/renr-responsive.png",
+    img: "/GrowPro1.png",
     title: "GrowPro",
     description:
     "GrowPro: Empowering Agents for Customized Creations: Developed the GrowPro app, designed for agents to craft personalized posters and presentations. The app, built using Next.js and React.js, offers a seamless and interactive platform for users to create dynamic marketing materials.Effortless Content Management with Strapi: Seamlessly integrated Strapi for content management, enabling agents in the health insurance sector to effortlessly manage and update vital information for the GrowPro app.",
-    tech_stack: ["React.js", "Strapi.js"],
-    
+    tech_stack: ["React.js", "Strapi.js","MUI"],
   },
   {
     img: "/mymind-responsive.png",
