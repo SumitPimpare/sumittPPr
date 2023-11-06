@@ -22,14 +22,15 @@ const Header = ({ toggle }) => {
             Contact
           </NavLink>
         </NavMenu>
-        <NavBtn>
-          <a
-            className="btn PrimaryBtn"
+        <NavBtn className="PrimaryBtn">
+          <a 
+            className="download"
             href="https://drive.google.com/file/d/1uf-lPAZVKJeQwZa_X0r70ZEZWNFkv_Ui/view?usp=drivesdk"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Download Resume
+            <img width='18' height='18' src='/download.svg' alt='Group Icon Logo' />
+            <span>Download Resume</span>
           </a>
         </NavBtn>
         <Bars onClick={toggle} />

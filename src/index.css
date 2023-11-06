@@ -76,8 +76,7 @@ video {
 }
 
 .btn-shadow{
-  box-shadow: 0px 2px 5px rgba(160, 170, 180, 0.6);
-
+  box-shadow: 0px 2px 3px rgba(160, 170, 180, 0.6);
 }
 
 .btn-shadow:hover{
@@ -85,17 +84,40 @@ video {
 }
 
 .PrimaryBtn {
-  padding: 8px 8px;
-  border: none;
+  cursor: pointer !important;
+  border-radius: 8px;
+  /* transition: all 0.2s ease-in-out; */
+  font-weight: 400;
+  outline: none;
+  padding: 8px;
   background: transparent;
   color: #f6f6f6;
-  transition: 0.8s;
+  transition: 0.6s;
+}
+ 
+.PrimaryBtn img{
+  opacity: 0.4;
+  transition: 0.6s;
+  margin-top: 3px;
+}
+
+.PrimaryBtn img:hover {
+  opacity: 1;
+}
+
+.download{
+  display: flex;
+  justify-content: baseline;
+  gap: 6px;
+}
+
+.downloadIcon {
+  transition: all 0.2s ease-in-out;
 }
 
 .PrimaryBtn:hover {
   color: black;
-  font-weight:400;
-  background: rgb(184, 184, 184);
+  background: #f1f1f1;
 }
 
 .SecondaryBtn{
@@ -107,14 +129,14 @@ video {
 .emailBtn {
   padding: 8px 8px;
   border: none;
-  background: rgba(71, 136, 235, 0.623);
+  background: #fff;
   color: #000000;
   transition:0.8s;
 }
 
 .emailBtn:hover {
   color: white;
-  background: rgba(0, 21, 53, 0.623);
+  background: #151418;
 }
 
 .SecondaryBtn:hover {
