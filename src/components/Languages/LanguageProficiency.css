@@ -1,0 +1,57 @@
+.language-proficiency {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.language-proficiency h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.language-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.language-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* align-items: center; */
+    margin: 10px 0;
+    font-size: 16px;
+    color: #555;
+}
+
+.language-name {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.language-level {
+    display: flex;
+    /* color: #007acc; */
+    align-items: left;
+}
+
+/* Add hover effect for the list items if needed */
+.language-item:hover {
+    background-color: #e6e6e6;
+    transition: background-color 0.3s;
+}
+
+/* Media query for responsive design */
+@media (max-width: 768px) {
+    .language-item {
+        flex-direction: row;
+    }
+
+    .language-name {
+        margin-bottom: 5px;
+    }
+}

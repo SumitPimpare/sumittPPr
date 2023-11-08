@@ -9,6 +9,7 @@ import {
   ContactWrapper,
 } from "./AboutElements";
 import ScrollAnimation from "react-animate-on-scroll";
+import LanguageProficiency from "../Languages/LanguageProficiency";
 function About() {
   return (
     <ContactWrapper id="about">
@@ -41,8 +42,10 @@ function About() {
               ))}
             </Technologies>
           </div>
+          <LanguageProficiency />
         </div>
       </div>
+
     </ContactWrapper>
   );
 }
