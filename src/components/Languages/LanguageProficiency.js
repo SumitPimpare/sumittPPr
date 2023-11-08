@@ -14,7 +14,7 @@ const LanguageProficiency = () => {
                 {languageProficiency.map((item, index) => (
                     <li key={index} className="language-item">
                         <span className="language-name">{item.language}:</span>
-                        <span className="language-level">{item.level}</span>
+                        <div className="alignLevel"><span className="language-level">{item.level}</span></div> 
                     </li>
                 ))}
             </ul>

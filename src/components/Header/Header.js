@@ -3,7 +3,7 @@ import { Nav, Logo, NavLink, Bars, NavMenu, NavBtn } from "./HeaderElements";
 
 const Header = ({ toggle }) => {
   return (
-    <div className="Container" style={{padding: 0}}>
+    <div className="Container" style={{ padding: 0 }}>
       <Nav>
         <Logo to="/">
           <img
@@ -23,7 +23,7 @@ const Header = ({ toggle }) => {
           </NavLink>
         </NavMenu>
         <NavBtn className="PrimaryBtn">
-          <a 
+          <a
             className="download"
             href="https://drive.google.com/file/d/1uf-lPAZVKJeQwZa_X0r70ZEZWNFkv_Ui/view?usp=drivesdk"
             target="_blank"

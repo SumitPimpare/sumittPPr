@@ -105,7 +105,11 @@ export const stackList = [
   // },
   {
     img: "strapiIcon.svg",
-    name: "Strapi (CMS)",
+    name: "Strapi",
+  },
+  {
+    img: "Jest.svg",
+    name: "Jest",
   },
   {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg",

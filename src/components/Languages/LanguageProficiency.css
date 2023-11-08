@@ -1,57 +1,61 @@
 .language-proficiency {
-    background-color: #f4f4f4;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
+  background-color: #f4f4f4;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
 }
 
 .language-proficiency h2 {
-    font-size: 24px;
-    color: #333;
-    margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
 }
 
 .language-list {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  padding: 0% 5%;
 }
 
 .language-item {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    /* align-items: center; */
-    margin: 10px 0;
-    font-size: 16px;
-    color: #555;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px 0;
+  font-size: 16px;
+  color: #555;
 }
 
 .language-name {
-    font-weight: bold;
-    margin-right: 10px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.alignLevel {
+  display: flex;
+  align-items: left;
 }
 
 .language-level {
-    display: flex;
-    /* color: #007acc; */
-    align-items: left;
+  display: flex;
+  align-items: left;
 }
 
-/* Add hover effect for the list items if needed */
 .language-item:hover {
-    background-color: #e6e6e6;
-    transition: background-color 0.3s;
+  background-color: #d6d2d2;
+  border-radius: 5px;
+  transition: background-color 0.6s;
 }
 
-/* Media query for responsive design */
-@media (max-width: 768px) {
-    .language-item {
-        flex-direction: row;
-    }
+@media (max-width: 380px) {
+  .language-item {
+    flex-direction: column;
+    align-items: center;
+  }
 
-    .language-name {
-        margin-bottom: 5px;
-    }
+  .language-name {
+    margin-bottom: 5px;
+  }
 }
