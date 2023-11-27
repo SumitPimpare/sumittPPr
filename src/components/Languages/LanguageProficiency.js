@@ -9,7 +9,7 @@ const LanguageProficiency = () => {
     ];
     return (
         <div className="LanguageCard">
-            <h2>Language Proficiency</h2>
+            <div className='lagProTitle'>Language Proficiency</div>
             <ul className="language-list">
                 {languageProficiency.map((item, index) => (
                     <li key={index} className="language-item">

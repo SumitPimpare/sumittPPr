@@ -55,7 +55,7 @@ function Contact() {
           <div className="mobileBigCard">
            <div className="contactNumber">
             <div><strong>Mobile:</strong></div>
-            <div>+91 777941264/9145218348</div>
+            <div>+91 777941264 / 9145218348</div>
            </div>
           </div>
       </div>
