@@ -17,11 +17,6 @@ export const Email = styled.div`
     font-weight: 400;
   }
 
-  @media (min-width: 576px) {
-    span {
-      font-size: 1.25rem;
-    }
-  }
   @media (min-width: 992px) {
     span {
       font-size: 1.5rem;

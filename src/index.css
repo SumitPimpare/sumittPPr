@@ -98,6 +98,7 @@ video {
 .PrimaryBtn img{
   opacity: 0.4;
   transition: 0.6s;
+  margin-top: 2px;
 }
 
 .PrimaryBtn img:hover {
@@ -144,19 +145,23 @@ video {
 }
 
 .Container {
-  max-width: 1000px;
   padding-right: 1rem;
   padding-left: 1rem;
-  width: 90%;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.contactContainer {
+  width: 60% !important;
+  padding-right: 1rem;
+  padding-left: 1rem;
   margin-right: auto;
   margin-left: auto;
 }
 
 .BigCard {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  padding-right: 2rem;
-  padding-left: 2rem;
+  padding: 2rem 4rem;
   border-radius: 1rem;
   display: flex;
   flex-direction: column;
@@ -165,7 +170,7 @@ video {
 }
 
 .emailBigCard{
-  padding: 2rem 1rem;
+  padding: 1.5rem;
   border-radius: 1rem;
   display: flex;
   flex-direction: column;
@@ -175,7 +180,7 @@ video {
 
 .mobileBigCard {
   margin-top: 2%;
-  padding: 2rem 1rem;
+  padding: 1.5rem;
   border-radius: 1rem;
   background: #fff;
   box-shadow: rgba(0, 0, 0, 0.05) 0px 5px 10px;
@@ -192,7 +197,6 @@ video {
 
 .AboutBio{
   text-align: justify;
-  max-width: 750px;
   margin: 0 auto;
   color: #151418;
   line-height: 1.6;
@@ -233,15 +237,27 @@ video {
 @media (max-width: 1000px) {
   .Container {
     padding: 0;
+    width: 90%;
   }
+  
+  .ProjectWrapper {
+    margin-top: 4rem;
+  }
+    .BigCard {
+      padding: 2rem 2rem;
+    }
 }
 
 
-@media (max-width: 486px) {
+@media (max-width: 502px) {
   .contactNumber{
     display: flex;
     flex-direction: column;
     align-items: center;  
+  }
+  .contactContainer {
+      width: 95% !important;
+     
   }
   
 }

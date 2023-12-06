@@ -4,7 +4,7 @@ import styled from "@emotion/styled";
 
 export const Nav = styled.nav`
   background: transparent;
-  height: 100px;
+  height: 80px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -22,7 +22,7 @@ export const NavLink = styled(ScrollLink)`
     color: #f6f6f6;
   }
 `;
-export const Logo = styled('div')`
+export const Logo = styled("div")`
   img {
     width: 47px;
     height: 47px;
@@ -41,7 +41,7 @@ export const Bars = styled(FaBars)`
 
 export const NavMenu = styled.div`
   display: flex;
-  gap:20px;
+  gap: 20px;
   align-items: center;
   margin-right: -24px;
 

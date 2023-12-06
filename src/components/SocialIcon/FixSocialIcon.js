@@ -6,7 +6,7 @@ import ScrollAnimation from "react-animate-on-scroll";
 const SocialContainer = styled.div`
   position: fixed;
   top: 48%;
-  left: 1.5rem;
+  left: 2.5rem;
   transform: translateY(-50%);
 
   ul {
@@ -14,7 +14,7 @@ const SocialContainer = styled.div`
   }
 
   .item + .item {
-    margin-top: 1rem;
+    margin-top: 3rem;
   }
 
   a {
@@ -47,7 +47,7 @@ const SocialContainer = styled.div`
 
     .item + .item {
       margin-top: 0;
-      margin-left: 2rem;
+      margin-left: 3rem;
     }
   }
 `;

@@ -2,10 +2,10 @@ import styled, { keyframes } from "styled-components";
 import { Link as LinkScroll } from "react-scroll";
 
 export const HeroContainer = styled.div`
-  padding-bottom: 2rem;
-  padding-top: 4rem;
-  padding-right: 1rem;
-  padding-left: 1rem;
+  padding-bottom: 0rem;
+  padding-top: 3rem;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
   margin-right: auto;
   margin-left: auto;
   display: flex;
@@ -28,9 +28,10 @@ export const HeroContainer = styled.div`
 export const HeroWrapper = styled.div`
   display: flex;
   flex-direction: row;
-
+  gap: 150px;
   @media screen and (max-width: 992px) {
     flex-direction: column;
+    gap: 20px;
   }
 `;
 
@@ -65,22 +66,35 @@ export const HeroLeft = styled.div`
   @media screen and (max-width: 992px) {
     text-align: center;
     align-items: center;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
+
+    h1 {
+    font-size: 2.2rem;
+  }
 
     h5 {
+      font-size: 1.2rem;
       min-height: 5rem;
+      margin-bottom: 0rem;
   }
 `;
 
 export const HeroRight = styled.div`
   flex: 1;
-  justify-content: center;
-  display: flex;
+  @media screen and (max-width: 992px) {
+    margin-top: -3.5rem;
+    justify-content: center;
+    display: flex;
+  }
 `;
 
 export const Image = styled.img`
-  height: 300px;
+  height: 450px;
   width: auto;
+  @media screen and (max-width: 992px) {
+    height: 340px;
+    width: auto;
+  }
 `;
 
 const ScrollAnimation = keyframes`
@@ -101,15 +115,15 @@ const ScrollAnimation = keyframes`
 
 export const ScrollDown = styled(LinkScroll)`
   display: flex;
-  justify-content: flex-start;
+  justify-content: flex-end;
   cursor: pointer;
-  position: absolute;
+  // position: absolute;
 
   animation: ${ScrollAnimation} 2s linear 0s infinite;
   @media screen and (max-width: 992px) {
     position: relative;
     justify-content: center;
-    margin-top: 2rem;
+    margin-top: 0.5rem;
   }
 `;
 

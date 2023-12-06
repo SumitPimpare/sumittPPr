@@ -42,22 +42,20 @@ export const CardRight = styled.div`
     margin-top: 10px;
     margin-bottom: 1rem;
     color: rgba(0, 0, 0, 0.815);
-    text-align: center;
+    text-align: justify;
 
     @media (min-width: 992px) {
       text-align: start;
+    }
+
+    @media (max-width: 992px) {
+      padding: 0% 3%;
     }
   }
   @media (min-width: 992px) {
     align-items: flex-start;
     margin-top: 1rem;
   }
-`;
-
-export const BtnGroup = styled.div`
-  height: 70px;
-  display: flex;
-  align-items: center;
 `;
 
 export const TechCardContainer = styled.div`
