@@ -8,7 +8,6 @@ import {
   TechName,
   ContactWrapper,
 } from "./AboutElements";
-import ScrollAnimation from "react-animate-on-scroll";
 import LanguageProficiency from "../Languages/LanguageProficiency";
 function About() {
   return (
