@@ -51,54 +51,23 @@ export const stackList = [
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg",
     name: "Git",
   },
-  // {
-  //   img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg",
-  //   name: "React Native",
-  // },
   {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg",
     name: "NodeJS",
   },
-  // {
-  //   img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/firebase/firebase-plain.svg",
-  //   name: "Firebase",
-  // },
-  // {
-  //   img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg",
-  //   name: "MongoDB",
-  // },
-  // {
-  //   img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
-  //   name: "Python",
-  // },
-  // {
-  //   img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/flask/flask-original.svg",
-  //   name: "Flask",
-  // },
-  // {
-  //   img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg",
-  //   name: "C",
-  // },
+
   {
     img: "webpack.svg",
     name: "Webpack",
   },
-  // {
-  //   img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg",
-  //   name: "MySQL",
-  // },
   {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original.svg",
     name: "Bootstrap",
   },
   {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/materialui/materialui-original.svg",
-    name: "Material UI",
+    name: "MUI",
   },
-  // {
-  //   img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/figma/figma-original.svg",
-  //   name: "Figma",
-  // },
   {
     img: "strapiIcon.svg",
     name: "Strapi",
