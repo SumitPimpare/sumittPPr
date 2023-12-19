@@ -30,7 +30,7 @@ function Hero() {
           <HeroRight>
             <ScrollAnimation animateIn="fadeIn">
               <Image
-                src="/devpic1.png"
+                src="devPic.png"
                 alt="developer"
                 width="200px"
                 height="500px"
@@ -96,7 +96,7 @@ function Hero() {
             <ScrollDown to="projects" id="scrollDown">
               <ScrollLink>
                 Scroll down
-                <img src="/scroll-down.svg" alt="scroll-down" />
+                <img src="scroll-down.svg" alt="scroll-down" />
               </ScrollLink>
             </ScrollDown>
           </ScrollAnimation>
