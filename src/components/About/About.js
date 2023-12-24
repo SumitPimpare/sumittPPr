@@ -15,7 +15,7 @@ function About() {
       <div className="Container">
         <div className="SectionTitle">About Me</div>
         <div className="BigCard">
-          <Image src="/man-svgrepo-com.svg" alt="man-svgrepo" />
+          <Image src="/sumittPPr//man-svgrepo-com.svg" alt="man-svgrepo" />
           <div className="AboutBio">
             Hello! My name is <strong>Sumit Pimpare</strong>. I'm from
             Maharashtra,India and have been living in Pune for the past Seven
