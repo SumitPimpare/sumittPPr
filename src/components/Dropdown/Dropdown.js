@@ -79,7 +79,13 @@ function Dropdown({ isOpen, toggle }) {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Resume
+          <img
+            width="22"
+            height="22"
+            src="/sumittPPr//download.svg"
+            alt="Group Icon Logo"
+          />
+          Download Resume
         </a>
       </NavBtn>
     </SiderBar>
