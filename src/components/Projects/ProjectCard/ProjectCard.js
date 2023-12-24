@@ -11,7 +11,6 @@ function ProjectCard() {
   return (
     <>
       {ProjectList.map((list, index) => (
-        // <ScrollAnimation animateIn="fadeInLeft" key={index}>
         <Card>
           <CardLeft>
             <img src={list.img} alt={list.name} />
@@ -24,31 +23,8 @@ function ProjectCard() {
                 <TechCard key={index}>{tech}</TechCard>
               ))}
             </TechCardContainer>
-            {/*<BtnGroup>
-                {list.github_url.length > 0 && (
-                  <a
-                    className="btn SecondaryBtn btn-shadow"
-                    href={list.github_url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Github
-                  </a>
-                )}
-                 {list.demo_url.length > 0 && (
-                  // <a
-                  //   className="btn PrimaryBtn btn-shadow"
-                  //   href={list.demo_url}
-                  //   target="_blank"
-                  //   rel="noopener noreferrer"
-                  // >
-                  //   Demo ➜
-                  // </a>
-                )} 
-              </BtnGroup>*/}
           </CardRight>
         </Card>
-        // </ScrollAnimation>
       ))}
     </>
   );
