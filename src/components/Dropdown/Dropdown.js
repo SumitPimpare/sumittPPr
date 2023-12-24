@@ -30,7 +30,7 @@ const CloseIcon = styled(FaTimes)`
 `;
 export const NavMenu = styled.div`
   display: flex;
-  gap:20px;
+  gap: 20px;
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -62,32 +62,20 @@ function Dropdown({ isOpen, toggle }) {
     <SiderBar isOpen={isOpen} onClick={toggle}>
       <CloseIcon onClick={toggle} />
       <NavMenu>
-        <NavLink
-          onClick={toggle}
-          className="menu-item"
-          to="projects"
-        >
+        <NavLink onClick={toggle} className="menu-item" to="projects">
           Projects
         </NavLink>
-        <NavLink
-          onClick={toggle}
-          className="menu-item"
-          to="about"
-        >
+        <NavLink onClick={toggle} className="menu-item" to="about">
           About
         </NavLink>
-        <NavLink
-          onClick={toggle}
-          className="menu-item"
-          to="contact"
-        >
+        <NavLink onClick={toggle} className="menu-item" to="contact">
           Contact
         </NavLink>
       </NavMenu>
       <NavBtn onClick={toggle}>
         <a
           className="btn PrimaryBtn"
-          href="https://linkedin.com/in/pedro-sales-muniz"
+          href="https://drive.google.com/file/d/1uf-lPAZVKJeQwZa_X0r70ZEZWNFkv_Ui/view?usp=drivesdk"
           target="_blank"
           rel="noopener noreferrer"
         >

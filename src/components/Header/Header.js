@@ -6,7 +6,7 @@ const Header = ({ toggle }) => {
     <div className="Container" style={{ padding: 0 }}>
       <Nav>
         <Logo to="/">
-          <img src="logo.png" alt="logo" />
+          <img src="/sumittPPr/logo.png" alt="logo" />
         </Logo>
         <NavMenu>
           <NavLink className="menu-item" to="projects">
@@ -29,7 +29,7 @@ const Header = ({ toggle }) => {
             <img
               width="18"
               height="18"
-              src="download.svg"
+              src="/sumittPPr//download.svg"
               alt="Group Icon Logo"
             />
             <span>Download Resume</span>

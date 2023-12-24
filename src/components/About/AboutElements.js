@@ -17,6 +17,10 @@ export const Technologies = styled.div`
   margin-right: auto;
   margin-left: auto;
   margin-bottom: -2rem;
+  @media screen and (max-width: 528px) {
+    max-width: -20px;
+    gap: 5%;
+  }
 `;
 
 export const Tech = styled.div`
@@ -26,6 +30,11 @@ export const Tech = styled.div`
   max-width: 100px;
   min-width: 100px;
   margin-bottom: 2rem;
+  @media screen and (max-width: 528px) {
+    max-width: 20px;
+    min-width: 60px;
+    align-items: center;
+  }
 `;
 
 export const TechImg = styled.img`
