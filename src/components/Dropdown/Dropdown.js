@@ -54,7 +54,7 @@ export const NavBtn = styled.div`
   display: flex;
   justify-content: center;
   margin-top: 5rem;
-  font-size: 1.7rem;
+  font-size: 1.3rem;
 `;
 
 function Dropdown({ isOpen, toggle }) {
@@ -74,7 +74,7 @@ function Dropdown({ isOpen, toggle }) {
       </NavMenu>
       <NavBtn onClick={toggle}>
         <a
-          className="btn PrimaryBtn"
+          className="downloadBtnMb"
           href="https://drive.google.com/file/d/1uf-lPAZVKJeQwZa_X0r70ZEZWNFkv_Ui/view?usp=drivesdk"
           target="_blank"
           rel="noopener noreferrer"

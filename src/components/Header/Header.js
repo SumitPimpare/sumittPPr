@@ -19,9 +19,9 @@ const Header = ({ toggle }) => {
             Contact
           </NavLink>
         </NavMenu>
-        <NavBtn className="PrimaryBtn">
+        <NavBtn>
           <a
-            className="download"
+            className="downloadBtn"
             href="https://drive.google.com/file/d/1uf-lPAZVKJeQwZa_X0r70ZEZWNFkv_Ui/view?usp=drivesdk"
             target="_blank"
             rel="noopener noreferrer"
