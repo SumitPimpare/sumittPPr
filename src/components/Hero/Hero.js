@@ -30,7 +30,7 @@ function Hero() {
           <HeroRight>
             <ScrollAnimation animateIn="fadeIn">
               <Image
-                src="/sumittPPr/devPic.png"
+                src="/sumittPPr/devPic.png" 
                 alt="developer"
                 width="200px"
                 height="500px"
