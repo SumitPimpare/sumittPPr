@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/sumittPPr/static/css/main.19e750a6.css",
-    "main.js": "/sumittPPr/static/js/main.aee8e393.js",
+    "main.css": "/sumittPPr/static/css/main.23c00c88.css",
+    "main.js": "/sumittPPr/static/js/main.18decf8c.js",
     "index.html": "/sumittPPr/index.html",
     "static/media/blob-haikei.svg": "/sumittPPr/static/media/blob-haikei.ed4231cd548cd312fe4f.svg",
-    "main.19e750a6.css.map": "/sumittPPr/static/css/main.19e750a6.css.map",
-    "main.aee8e393.js.map": "/sumittPPr/static/js/main.aee8e393.js.map"
+    "main.23c00c88.css.map": "/sumittPPr/static/css/main.23c00c88.css.map",
+    "main.18decf8c.js.map": "/sumittPPr/static/js/main.18decf8c.js.map"
   },
   "entrypoints": [
-    "static/css/main.19e750a6.css",
-    "static/js/main.aee8e393.js"
+    "static/css/main.23c00c88.css",
+    "static/js/main.18decf8c.js"
   ]
 }
