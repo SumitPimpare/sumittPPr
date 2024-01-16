@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "@emotion/styled";
+import "./Footer.css";
 
 const FooterSection = styled.div`
   background-image: url(/sumittPPr/footer_wave.svg);
@@ -22,7 +23,11 @@ const FooterSection = styled.div`
 function Footer() {
   return (
     <FooterSection>
-      <div className="Container" />
+      {/* <div className=""> */}
+      <footer className="footerWrapper">
+        <p>&copy; 2022, copyright Sumit Pimpare</p>
+      </footer>
+      {/* </div> */}
     </FooterSection>
   );
 }

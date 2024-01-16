@@ -24,15 +24,15 @@ export const NavLink = styled(ScrollLink)`
 `;
 export const Logo = styled("div")`
   img {
-    width: 42px;
-    height: 42px;
+    width: 40px;
+    height: 40px;
   }
 `;
 
 export const Bars = styled(FaBars)`
   display: none;
   color: #fff;
-  font-size: 1.8rem;
+  font-size: 26px;
   cursor: pointer;
   @media screen and (max-width: 768px) {
     display: block;

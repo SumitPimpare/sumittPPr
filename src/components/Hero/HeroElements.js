@@ -21,7 +21,7 @@ export const HeroContainer = styled.div`
     max-width: 960px;
   }
   @media (min-width: 1200px) {
-    max-width: 1000px;
+    max-width: 1200px;
   }
 `;
 

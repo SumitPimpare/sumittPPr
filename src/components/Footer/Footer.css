@@ -1,0 +1,29 @@
+.footerWrapper {
+    width: 50%;
+    /* border-top: 1px solid #DFDFDF; */
+    /* background-color: #FFFFFF; */
+    text-align: center;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 5vh; */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.footerWrapper p {
+    color: #fafafa;
+    font-family: Manrope;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+@media (max-width: 750px) {
+.footerWrapper {
+    width: 100%;
+}
+}
