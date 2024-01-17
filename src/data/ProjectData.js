@@ -14,12 +14,12 @@ export const ProjectList = [
     tech_stack: ["React.js", "Strapi.js", "MUI"],
   },
   // {
-  //   title: "Dashboard",
+  //   title: "Payment-Portal",
   //   img: "/mymind-responsive.png",
   //   title: "Payment Portal",
   //   description:
-  //     "An app where users can purchase online therapy sessions and chat with their therapists.",
-  //   tech_stack: ["HTML", "CSS", "NodeJs", "MongoDB", "SocketIo"],
+  //     "",
+  //   tech_stack: ["HTML", "CSS", "NodeJs", "MongoDB"],
   // },
 ];
 

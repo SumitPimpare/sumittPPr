@@ -23,11 +23,9 @@ const FooterSection = styled.div`
 function Footer() {
   return (
     <FooterSection>
-      {/* <div className=""> */}
       <footer className="footerWrapper">
         <p>&copy; 2022, copyright Sumit Pimpare</p>
       </footer>
-      {/* </div> */}
     </FooterSection>
   );
 }
