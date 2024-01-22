@@ -41,6 +41,7 @@ export const TechImg = styled.img`
   height: 40px;
   width: 40px;
   padding-bottom: 5px;
+  filter: drop-shadow(8px 7px 1px #d3d3d3);
 `;
 
 export const TechName = styled.div`
