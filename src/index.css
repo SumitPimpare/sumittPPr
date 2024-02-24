@@ -263,3 +263,10 @@ video {
   }
   
 }
+
+ @media (max-width: 784px) {
+  .emailBtn {
+      color: white;
+      background: #151418;
+    }
+ }
