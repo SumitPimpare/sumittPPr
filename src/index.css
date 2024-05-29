@@ -238,8 +238,9 @@ video {
 
 @media (max-width: 1000px) {
   .Container {
-    padding: 0;
-    width: 90%;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
   }
   
   .ProjectWrapper {

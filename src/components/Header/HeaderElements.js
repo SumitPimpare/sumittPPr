@@ -62,3 +62,13 @@ export const NavBtn = styled.div`
     display: none;
   }
 `;
+
+export const ScrollPercentage = styled.div`
+  height: 2px;
+  border-radius: 20px;
+  background-color: red;
+  position: fixed;
+  top: 0px;
+  left: 0;
+  z-index: 999;
+`;
