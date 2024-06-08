@@ -13,6 +13,7 @@ export const Image = styled.img`
 export const Technologies = styled.div`
   display: flex;
   flex-wrap: wrap;
+  max-width: 100px;
   justify-content: center;
   margin-right: auto;
   margin-left: auto;

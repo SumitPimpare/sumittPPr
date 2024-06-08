@@ -1,7 +1,7 @@
 export const ProjectList = [
   {
     img: "/sumittPPr/Dashboard.png",
-    title: "Dashboard",
+    title: "Sales Dashboard",
     description:
       "The Sales Dashboard offers insurance agents a comprehensive platform to analyze their sales data efficiently. Through intuitive visualizations and robust features, agents can gain valuable insights into premiums, sales volumes, and renewals. Key Features: Equipped with intuitive visualization tools and insightful business calculations, the dashboard enables agents to make informed decisions, monitor performance, and enhance productivity. Its user-friendly interface ensures seamless navigation, making it an indispensable tool for agents navigating the competitive insurance market.",
     tech_stack: ["React", "Webpack", "Module Federation", "HTML", "CSS"],
