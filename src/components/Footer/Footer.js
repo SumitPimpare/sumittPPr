@@ -24,7 +24,7 @@ function Footer() {
   return (
     <FooterSection>
       <footer className="footerWrapper">
-        <p>&copy; 2022, copyright Sumit Pimpare</p>
+        <p>&copy; 2024, copyright Sumit Pimpare</p>
       </footer>
     </FooterSection>
   );

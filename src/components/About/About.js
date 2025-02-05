@@ -19,7 +19,7 @@ function About() {
           <div className="AboutBio">
             Hello! My name is <strong>Sumit Pimpare</strong>. I'm from
             Maharashtra, India and have been living in Pune for the past Seven
-            years. And Working as a Software Engineering (React Developer) for 2
+            years. And Working as a Software Engineering (React Developer) for 3+
             years. During my time here, I gained valuable experience through
             various entry-level positions, which greatly enhanced my work ethic,
             communication skills, and adaptability.
