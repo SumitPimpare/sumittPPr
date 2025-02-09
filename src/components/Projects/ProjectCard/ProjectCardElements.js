@@ -81,3 +81,13 @@ export const TechCard = styled.div`
   cursor: default;
   box-shadow: 0px 2px 5px rgba(160, 170, 180, 0.6);
 `;
+
+export const BulletList = styled.ul`
+  list-style-type: disc;
+  margin-left: 20px;
+  padding-left: 20px;
+`;
+
+export const ListItem = styled.li`
+  margin-bottom: 8px;
+`;

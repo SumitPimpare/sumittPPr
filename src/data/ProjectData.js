@@ -2,23 +2,39 @@ export const ProjectList = [
   {
     img: "/sumittPPr/Dashboard.png",
     title: "Atom Common",
-    description:
-      "Atom Common is a versatile shared component library designed to streamline the integration of essential UI elements across multiple projects. By leveraging Module Federation, it provides a seamless way to incorporate a dynamic sidebar, header, and footer while adapting to the unique requirements of each application.Key Features:Equipped with a configurable sidebar, responsive design, and scalable architecture, Atom Common ensures consistency and efficiency across projects. Its modular approach allows applications to provide custom utilities, making it a flexible and reusable solution. With optimized performance and seamless integration, it enhances development workflows and maintains a unified user experience across multiple platforms.",
-    tech_stack: ["React", "Webpack", "Module Federation", "HTML", "CSS","Jest","sonarqube"],
+    description: [
+      "Atom Common is a versatile shared component library using Module Federation.",
+      "It provides a seamless way to incorporate a dynamic sidebar, header, and footer while adapting to the unique requirements of each application.",
+      "Equipped with a configurable sidebar, responsive design, and scalable architecture.",
+      "Configurable, responsive, and scalable architecture.",
+      "Allows custom utilities for flexibility.",
+      "Optimized for performance and seamless integration."
+    ],
+    tech_stack: ["React", "Webpack", "Module Federation", "HTML", "CSS", "Jest", "SonarQube"],
   },
   {
     img: "/sumittPPr/Dashboard.png",
     title: "Sales Dashboard",
-    description:
-      "The Sales Dashboard offers insurance agents a comprehensive platform to analyze their sales data efficiently. Through intuitive visualizations and robust features, agents can gain valuable insights into premiums, sales volumes, and renewals. Key Features: Equipped with intuitive visualization tools and insightful business calculations, the dashboard enables agents to make informed decisions, monitor performance, and enhance productivity. Its user-friendly interface ensures seamless navigation, making it an indispensable tool for agents navigating the competitive insurance market.",
-    tech_stack: ["React", "Webpack", "Module Federation", "HTML", "CSS","Jest","sonarqube"],
-  }, 
+    description: [
+      "The Sales Dashboard offers insurance agents a comprehensive platform o analyze their sales data efficiently.",
+      "Provides intuitive visualizations and insights.",
+      "Tracks premiums, sales volumes, and renewals.",
+      "Enhances decision-making and productivity.",
+      "User-friendly interface for seamless navigation."
+    ],
+    tech_stack: ["React", "Webpack", "Module Federation", "HTML", "CSS", "Jest", "SonarQube"],
+  },
   {
     img: "/sumittPPr/GrowPro1.png",
     title: "GrowPro",
-    description:
-      "GrowPro: Empowering Agents for Customized Creations: Developed the GrowPro app, designed for agents to craft personalized posters and presentations. The app, built using Next.js and React.js, offers a seamless and interactive platform for users to create dynamic marketing materials.Effortless Content Management with Strapi: Seamlessly integrated Strapi for content management, enabling agents in the health insurance sector to effortlessly manage and update vital information for the GrowPro app.",
-    tech_stack: ["React.js", "Strapi.js", "MUI","Jest"],
+    description: [
+      "Empowering Agents for Customized Creations: Developed the GrowPro app, designed for agents to craft personalized posters and presentations.",
+      "Built with Next.js and React.js for a seamless experience.",
+      "Integrates Strapi for effortless content management.",
+      "Designed for health insurance agents.",
+      "Enables easy updates and dynamic marketing materials."
+    ],
+    tech_stack: ["React.js", "Strapi.js", "MUI", "Jest"],
   },
 ];
 
