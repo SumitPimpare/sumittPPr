@@ -54,7 +54,7 @@ export const CardRight = styled.div`
   }
   @media (min-width: 992px) {
     align-items: flex-start;
-    margin-top: 1rem;
+    margin-top: 5px;
   }
 `;
 
@@ -85,7 +85,8 @@ export const TechCard = styled.div`
 export const BulletList = styled.ul`
   list-style-type: disc;
   margin-left: 20px;
-  padding-left: 20px;
+  padding-left: 5px;
+  padding-top: 5px;
 `;
 
 export const ListItem = styled.li`
