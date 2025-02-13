@@ -9,6 +9,8 @@ import {
   Image,
   ScrollDown,
   ScrollLink,
+  LoaderContainer,
+  Loader
 } from "./HeroElements";
 import { TypeAnimation } from "react-type-animation";
 import ScrollAnimation from "react-animate-on-scroll";
@@ -17,10 +19,16 @@ function Hero() {
   const [isOpen, setIsOpen] = useState(false);
   const [showSubtitle, setShowSubtitle] = useState(false);
   const [showScrollDown, setShowScrollDown] = useState(false);
+  const [loading, setLoading] = useState(true);
 
   const toggle = () => {
     setIsOpen(!isOpen);
   };
+
+  const handleImageLoad = () => {
+    setLoading(false);
+  };
+
   return (
     <main>
       <Dropdown isOpen={isOpen} toggle={toggle} />
@@ -29,11 +37,18 @@ function Hero() {
         <HeroWrapper>
           <HeroRight>
             <ScrollAnimation animateIn="fadeIn">
+              {loading && (
+                <LoaderContainer>
+                  <Loader />
+                </LoaderContainer>
+              )}
               <Image
                 src="/sumittPPr/devPic.png" 
                 alt="developer"
                 width="200px"
                 height="500px"
+                onLoad={handleImageLoad}
+                style={{ display: loading ? 'none' : 'block' }}
               />
             </ScrollAnimation>
           </HeroRight>

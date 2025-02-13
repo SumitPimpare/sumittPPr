@@ -145,3 +145,36 @@ export const ScrollLink = styled.div`
     margin-left: 6px;
   }
 `;
+
+export const LoaderContainer = styled.div`
+  width: 200px; 
+  height: 500px; 
+  display: flex;
+  align-items: center;
+  margin-left: 200px;
+   @media screen and (max-width: 992px) {
+    height: 340px;
+    width: auto;
+    margin-left: 0px;
+  }
+`;
+
+export const Loader = styled.div`
+  display: flex;
+  width: 50px;
+  height: 50px;
+  border: 6px solid #f3f3f3; 
+  border-top: 6px solid rgb(206, 38, 38); /* Blue */
+  border-radius: 50%;
+  align-items: center;
+  animation: spin 1s linear infinite;
+
+  @media screen and (max-width: 992px) {
+    margin-left: 0px;
+  }
+
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+`;
