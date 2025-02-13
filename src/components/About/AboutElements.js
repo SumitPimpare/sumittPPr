@@ -5,9 +5,15 @@ export const ContactWrapper = styled.div`
 `;
 
 export const Image = styled.img`
-  max-width: 120px;
-  margin: 0 auto;
-  margin-bottom: 1rem;
+    max-width: 120px;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    transition: transform 0.3s ease, filter 0.3s ease;
+    
+    &:hover {
+      transform: scale(1.1);
+      filter: drop-shadow(8px 7px 1px rgb(250, 108, 86)); 
+    }
 `;
 
 export const Technologies = styled.div`
@@ -43,6 +49,12 @@ export const TechImg = styled.img`
   width: 40px;
   padding-bottom: 5px;
   filter: drop-shadow(8px 7px 1px #d3d3d3);
+  transition: transform 0.3s ease, filter 0.3s ease;
+  
+  &:hover {
+      transform: scale(1.2); 
+    }
+ 
 `;
 
 export const TechName = styled.div`

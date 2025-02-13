@@ -95,6 +95,12 @@ export const Image = styled.img`
     height: 340px;
     width: auto;
   }
+  transition: transform 0.3s ease, filter 0.3s ease;
+  
+  &:hover {
+    transform: scale(1.05);
+    filter: drop-shadow(8px 7px 1px rgb(53, 53, 53));
+  }
 `;
 
 const ScrollAnimation = keyframes`
