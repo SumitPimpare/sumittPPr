@@ -36,7 +36,7 @@ function Hero() {
       <HeroContainer>
         <HeroWrapper>
           <HeroRight>
-            <ScrollAnimation animateIn="fadeIn">
+            <ScrollAnimation animateIn="fadeIn" style ={{display:"flex",justifyContent:"center"}} >
               {loading && (
                 <LoaderContainer>
                   <Loader />
