@@ -30,7 +30,7 @@ function Contact() {
                 justifyContent: "center",
               }}
             >
-              <span>sumitpimpare105@gmail.com</span>
+              <span>sumitpimpare555@gmail.com</span>
               <Tooltip
                 PopperProps={{
                   disablePortal: true,
@@ -54,7 +54,7 @@ function Contact() {
             </div>
             <a
               className="btn emailBtn btn-shadow"
-              href="mailto:sumitpimpare105@gmail.com"
+              href="mailto:sumitpimpare555@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
             >

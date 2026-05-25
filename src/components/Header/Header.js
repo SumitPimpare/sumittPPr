@@ -49,7 +49,7 @@ const Header = ({ toggle }) => {
         <NavBtn>
           <a
             className="downloadBtn"
-            href="https://drive.google.com/file/d/1vgzOSJxeXNCY5TNDc58UIrTsT7l9QeXn/view?usp=sharing"
+            href="https://drive.google.com/file/d/1BC5Eh5PVO4YZKCYwNJga7oeglGB0iSfH/view?usp=drive_link"
             target="_blank"
             rel="noopener noreferrer"
           >
